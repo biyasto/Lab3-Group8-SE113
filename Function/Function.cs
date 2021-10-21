@@ -6,7 +6,7 @@ namespace FunctionX
     {
         public int CheckDayinMonth(int month, int year)
         {
-            if (month >= 1 && month <= 12)
+            if (month >= 1 && month <= 12 && year>0)
             {
                 if ((month % 2 == 1 && month <= 7) || (month % 2 == 0 && month > 7)) { return 31; }
                 if (month == 2)

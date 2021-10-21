@@ -6,11 +6,14 @@ namespace Test_day_in_month
     [TestFixture]
     public class TestCase
     {
+
         [TestCase(1, 2021, 31)]
         [TestCase(3, 2021, 31)]
         [TestCase(5, 2021, 31)]
         [TestCase(7, 2021, 31)]
         [TestCase(9, 2021, 30)]
+        [TestCase(0,2010,0)]
+        [TestCase(1,0,0)]
         [TestCase(10, 2021, 31)]
         [TestCase(12, 2021, 31)]
         [TestCase(1, 2000, 31)]
